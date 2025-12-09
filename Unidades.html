@@ -462,7 +462,7 @@
     <main class="container">
         <header class="page-header">
             <h1>Unidades de Aprendizaje</h1>
-            <p>Seis unidades temáticas diseñadas para desarrollar competencias integrales en la administración y evaluación de proyectos de inversión.</p>
+            <p>Cinco unidades temáticas diseñadas para desarrollar competencias integrales en la administración y evaluación de proyectos de inversión.</p>
         </header>
 
         <div class="units-grid" id="units-container">
@@ -471,7 +471,7 @@
     </main>
         
     <footer>
-        <p>Sistemas Operativos - Libro Interactivo</p>
+        <p>Cómputo paralelo - Libro Interactivo</p>
     </footer>
 
     <script>
@@ -486,12 +486,21 @@
         // Script para generar tarjetas de unidades (CORREGIDO)
         document.addEventListener('DOMContentLoaded', () => {
             const units = [
+<<<<<<< HEAD
                 { id: 1, title: "Unidad I", subtitle: "Estructura de un Sistema Operativo", description: "Describe los tipos arquitectura paralela con base en sus alcances, características y aplicaciones.", icon: "fa-book-open", duration: "2 semanas", topics: ["Conceptos básicos", "Evolución", "Tipos de S.O."] },
                 { id: 2, title: "Unidad II", subtitle: "Administración de procesos", description: "Administra procesos e hilos con base en su comunicación, sincronización y planificación.", icon: "fa-cogs", duration: "3 semanas", topics: ["Procesos", "Hilos", "Sincronización"] },
                 { id: 3, title: "Unidad III", subtitle: "Administración de memoria", description: "Administra la memoria principal y secundaria del sistema operativo con base en las técnicas de paginación, segmentación y swapping.", icon: "fa-memory", duration: "3 semanas", topics: ["Memoria virtual", "Paginación", "Segmentación"] },
                 { id: 4, title: "Unidad IV", subtitle: "Sistema de Archivos", description: "Implementa la organización del sistema de archivos a partir de su estructura, asignación de espacio, administración y optimización.", icon: "fa-folder-open", duration: "2 semanas", topics: ["Estructura", "Implementación", "Optimización"] },
                 { id: 5, title: "Unidad V", subtitle: "Dispositivos de entrada y salida", description: "Implementa la interacción de los dispositivos de E/S con el sistema operativo a partir del hardware y del software.", icon: "fa-keyboard", duration: "3 semanas", topics: ["Hardware de E/S", "Software de E/S", "Capas de software"] },
                 { id: 6, title: "Unidad VI", subtitle: "Seguridad y Virtualización", description: "Incrementa la funcionalidad del sistema operativo con base en la seguridad y virtualización.", icon: "fa-shield-alt", duration: "3 semanas", topics: ["Seguridad", "Virtualización", "Contenedores"] }
+=======
+                { id: 1, title: "Unidad I", subtitle: "Acercamiento al cómputo paralelo", description: "Identifica los sistemas operativos actuales y emergentes con base en su estructura, modos de operación y llamadas a sistema.", icon: "fa-book-open", duration: "2 semanas", topics: ["Conceptos básicos", "Evolución", "Tipos de S.O."] },
+                { id: 2, title: "Unidad II", subtitle: "Diseño y análisis de programas paralelos", description: "Describe los tipos arquitectura paralela con base en sus alcances, características y aplicaciones.", icon: "fa-cogs", duration: "3 semanas", topics: ["Procesos", "Hilos", "Sincronización"] },
+                { id: 3, title: "Unidad III", subtitle: "Programación paralela en sistemas de memoria compartida", description: "Elabora programas paralelos con base en las políticas y la memoria compartida.", icon: "fa-memory", duration: "3 semanas", topics: ["Memoria virtual", "Paginación", "Segmentación"] },
+                { id: 4, title: "Unidad IV", subtitle: "Programación paralela en sistemas distribuidos", description: "Elabora programas paralelos con base en las políticas y la memoria distribuida.", icon: "fa-folder-open", duration: "2 semanas", topics: ["Estructura", "Implementación", "Optimización"] },
+                { id: 5, title: "Unidad V", subtitle: "Programación basada en flujo de datos", description: "Elabora programas paralelos con base en principios de aceleradores paralelos y procesadores de flujo.", icon: "fa-keyboard", duration: "3 semanas", topics: ["Hardware de E/S", "Software de E/S", "Capas de software"] }
+                
+>>>>>>> d959ad95531f7b49c3e22a3a716712b461f91b5e
             ];
 
             const container = document.getElementById('units-container');
